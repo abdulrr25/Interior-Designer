@@ -11,7 +11,7 @@ export default function Footer(){
     
     return(
         <div className="bg-[#FBEFF2] dark:bg-[#292C3D]">
-            <div className="container lg:grid lg:grid-cols-2 py-14">
+            <div className="container lg:grid lg:grid-cols-2 py-14 px-4">
                 <div className="grid gap-4 pb-4 text-left lg:pb-0 lg:grid-cols-3">
                     <motion.div 
                               initial="offscreen"
@@ -84,7 +84,7 @@ export default function Footer(){
                       whileInView={"onscreen"}
                       variants={desVariants}
             className="py-10 bg-black dark:bg-primary">
-                <div className="container text-white text-center lg:justify-between lg:flex">
+                <div className="container text-white text-center lg:justify-between lg:flex px-4">
                     <div className="pb-4 lgg:pb-0">
                         <p>&copy; 2025 Interior. All Rights Reserved</p>
                     </div>
