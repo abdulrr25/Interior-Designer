@@ -66,7 +66,7 @@ export default function CatalogueSection() {
             <p className="py-4">{item.description}</p>
             <a
               className="inline-flex items-center font-medium"
-              href={`/details/${item.id}`}
+              href={`/projects`}
             >
               See Details
               <TbArrowNarrowRight className="ml-2" />
