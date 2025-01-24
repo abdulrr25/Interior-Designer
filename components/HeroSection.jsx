@@ -2,6 +2,7 @@
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "./ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import { desVariants, tagVariants, titleVariants } from "@/utils/animation";
 import { motion } from "framer-motion";
 
@@ -40,10 +41,12 @@ const HeroSection = () => {
           whileInView={"onscreen"}
           variants={titleVariants}
         >
-          <Button 
-            className="inline-flex items-center px-8 py-3 text-white rounded-full shadow-lg hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2">
-            Book Now <ArrowUpRight className="w-5 h-5 ml-2" />
-          </Button>
+          <Link href="/contact">
+            <Button 
+              className="inline-flex items-center px-8 py-3 text-white rounded-full shadow-lg hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2">
+              Book Now <ArrowUpRight className="w-5 h-5 ml-2" />
+            </Button>
+          </Link>
         </motion.div>
       </div>
 

@@ -47,7 +47,7 @@ const AboutComponent = () => {
                       whileInView={"onscreen"}
                       variants={tagVariants}
 
-          className="px-8 lg:px-14 pb-4 mt-4">
+          className="px-8 lg:px-14 pb-4 mt-4 text-justify">
             This Company is engaged in the field of interior design. We provide the best interior design for your home. We have been trusted by many people to design their homes. We have been contributing in this field since 1990.
           </motion.p>
 
@@ -56,7 +56,7 @@ const AboutComponent = () => {
                       whileInView={"onscreen"}
                       variants={tagVariants}
 
-          className="px-8 lg:px-14 pb-4">
+          className="px-8 lg:px-14 pb-4 text-justify">
             We have been providing services to customers for the last 35 years and have received a great response. We treat our customers as a priority, which has earned us love and support from our clientele. Our main focus is that we truly believe in ensuring the satisfaction of our customers.
           </motion.p>
 

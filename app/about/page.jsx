@@ -57,7 +57,7 @@ const About = () => {
             whileInView={"onscreen"}
             variants={tagVariants}
           >
-            <p className="pb-8 tracking-wide mt-6">
+            <p className="pb-8 tracking-wide mt-6 text-center">
               We are a team of internationally acclaimed architects committed 
               to redefining architectural education and innovation. At the heart 
               of our work is a dedication to integrating new societal visions and 
