@@ -25,6 +25,7 @@ export async function POST(request) {
     // Configure the email to be sent
     const mailOptions = {
       from: email, // The sender's email
+      
       to: "newrangolibuildersnrb@gmail.com", // Your email address
       subject: `New Contact Form Submission from ${firstName} ${lastName}`,
       text: `
