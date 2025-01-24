@@ -33,7 +33,7 @@ const posts = [
     category: { title: "4.7", href: "#" },
     author: {
       name: "Aviraj Singh",
-      role: "Small Business Owner",
+      role: "Business Owner",
       href: "#",
       imageUrl: "/image/profile2.jpg",
     },

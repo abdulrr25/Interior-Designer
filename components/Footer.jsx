@@ -97,11 +97,8 @@ export default function Footer() {
             <p>&copy; 2025 Interior. All Rights Reserved</p>
           </div>
           <div>
-            <Link className="p-4 hover:underline" href="/">
-              Privacy
-            </Link>
-            <Link className="p-4 hover:underline" href="/">
-              Terms
+            <Link className="p-4 hover:underline" href="https://copyright.gov.in/PrivacyPolicy.aspx">
+              Privacy Terms
             </Link>
           </div>
         </div>
