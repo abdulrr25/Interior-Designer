@@ -61,7 +61,7 @@ const page = () => {
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery3.jpg"/>
         </div>
         <div>
-          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/TV12.jpg"/>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/project.jpg"/>
         </div>
       </div>
     </div>

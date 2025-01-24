@@ -3,130 +3,85 @@
 import { desVariants, tagVariants, titleVariants } from "@/utils/animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import React, { useState } from "react";
-import { Input } from "./ui/input";
+import React from "react";
 
 export default function Footer() {
-  const [email, setEmail] = useState("");
-
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
-
-  const handleSubscribe = () => {
-    if (email) {
-      // You can send the email to your API or any other service here.
-      console.log("Subscribed with email:", email);
-    } else {
-      alert("Please enter a valid email address.");
-    }
-  };
-
   return (
     <div className="bg-[#FBEFF2] dark:bg-[#292C3D]">
-      <div className="container lg:grid lg:grid-cols-2 py-14 px-4">
-        <div className="grid gap-4 pb-4 text-left lg:pb-0 lg:grid-cols-3">
-          <motion.div
-            initial="offscreen"
-            whileInView={"onscreen"}
-            variants={titleVariants}
-          >
-            <h2 className="pb-4 text-xl font-semibold uppercase">Company</h2>
-            <div className="flex flex-col ">
-              <Link href="/" className="py-1 hover:underline">
-                About Us
-              </Link>
-              <Link href="/" className="py-1 hover:underline">
-                Press
-              </Link>
-              <Link href="/" className="py-1 hover:underline">
-                Careers
-              </Link>
-              <Link href="/" className="py-1 hover:underline">
-                Contact Us
-              </Link>
-            </div>
-          </motion.div>
+      <div className="container lg:grid lg:grid-cols-3 py-14 px-4 gap-8">
+        {/* Company Section */}
+        <motion.div
+          initial="offscreen"
+          whileInView={"onscreen"}
+          variants={titleVariants}
+        >
+          <h2 className="pb-4 text-xl font-semibold uppercase">Company</h2>
+          <div className="flex flex-col">
+            <Link href="/about" className="py-1 hover:underline">
+              About Us
+            </Link>
+            <Link href="/" className="py-1 hover:underline">
+              Press
+            </Link>
+            <Link href="/" className="py-1 hover:underline">
+              Careers
+            </Link>
+            <Link href="/contact" className="py-1 hover:underline">
+              Contact Us
+            </Link>
+          </div>
+        </motion.div>
 
-          <motion.div
-            initial="offscreen"
-            whileInView={"onscreen"}
-            variants={desVariants}
-          >
-            <h2 className="pb-4 text-xl font-semibold uppercase">Development</h2>
-            <div className="flex flex-col ">
-              <Link href="/" className="py-1 hover:underline">
-                Documentation
-              </Link>
-              <Link href="/" className="py-1 hover:underline">
-                Reference
-              </Link>
-              <Link href="/" className="py-1 hover:underline">
-                Changelog
-              </Link>
-              <Link href="/" className="py-1 hover:underline">
-                Status
-              </Link>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial="offscreen"
-            whileInView={"onscreen"}
-            variants={tagVariants}
-          >
-            <h2 className="pb-4 text-xl font-semibold uppercase">Connect</h2>
-            <div className="flex flex-col ">
-              <Link
-                href="https://www.instagram.com/nrb_kitchen_studio/"
-                className="py-1 hover:underline"
-              >
-                Instagram
-              </Link>
-              <Link
-                href="https://www.facebook.com/javedmirza07"
-                className="py-1 hover:underline"
-              >
-                Facebook
-              </Link>
-              <Link href="tel:+918299355299" className="py-1 hover:underline">
-                8299355299
-              </Link>
-              <Link href="tel:+918181800938" className="py-1 hover:underline">
-                8181800938
-              </Link>
-            </div>
-          </motion.div>
-        </div>
-
+        {/* Development Section */}
         <motion.div
           initial="offscreen"
           whileInView={"onscreen"}
           variants={desVariants}
         >
-          <p className="pb-4 text-xl font-semibold">Stay Updated</p>
-          <div className="relative lg:max-w-sm">
-            <Input
-              type="email"
-              id="email"
-              placeholder="Email Address"
-              value={email}
-              onChange={handleEmailChange}
-              required
-            />
-            <button
-              type="button"
-              onClick={handleSubscribe}
-              className="absolute bg-black text-white rounded-full h-10 px-3 text-sm top-2 right-2 hover:border-2 hover:border-black hover:bg-white hover:text-black dark:bg-primary"
-            >
-              Subscribe
-            </button>
+          <h2 className="pb-4 text-xl font-semibold uppercase">Development</h2>
+          <div className="flex flex-col">
+            <Link href="/" className="py-1 hover:underline">
+              Documentation
+            </Link>
+            <Link href="/" className="py-1 hover:underline">
+              Reference
+            </Link>
+            <Link href="/" className="py-1 hover:underline">
+              Changelog
+            </Link>
+            <Link href="/" className="py-1 hover:underline">
+              Status
+            </Link>
           </div>
-          <p className="pt-4 text-gray-500">
-            By subscribing to our newsletter, you agree to receive emails from
-            us. Your personal data will be stored and processed in accordance
-            with our Privacy Policy, and you can unsubscribe at any time.
-          </p>
+        </motion.div>
+
+        {/* Connect Section */}
+        <motion.div
+          initial="offscreen"
+          whileInView={"onscreen"}
+          variants={tagVariants}
+        >
+          <h2 className="pb-4 text-xl font-semibold uppercase">Connect</h2>
+          <div className="flex flex-col">
+            <Link
+              href="https://www.instagram.com/nrb_kitchen_studio/"
+              className="py-1 hover:underline"
+            >
+              Instagram
+            </Link>
+            <Link
+              href="https://www.facebook.com/javedmirza07"
+              className="py-1 hover:underline"
+            >
+              Facebook
+            </Link>
+            <Link href="tel:+918299355299" className="py-1 hover:underline">
+              8299355299
+            </Link>
+            <Link href="tel:+918181800938" className="py-1 hover:underline">
+              8181800938
+            </Link>
+          </div>
         </motion.div>
       </div>
 
