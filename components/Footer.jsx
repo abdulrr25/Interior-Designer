@@ -8,7 +8,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="bg-[#FBEFF2] dark:bg-[#292C3D]">
-      <div className="container lg:grid lg:grid-cols-3 py-8 px-4 gap-8">
+      <div className="container lg:grid lg:grid-cols-3 py-6 px-10 gap-8">
         {/* Company Section */}
         <motion.div
           initial="offscreen"
@@ -71,20 +71,15 @@ export default function Footer() {
   <div className="flex flex-col">
     {/* Embedded Google Map with Pin */}
     <iframe
-      id="map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4910072795075!2d82.078532!3d26.281176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a7d5221b22235%3A0xfb8518a1075fbd95!2sNew%20Rangoli%20Builders!5e0!3m2!1sen!2sin!4v1698485425104!5m2!1sen!2sin"
-      width="60%"
-      height="130"
-      style={{
-        border: 0,
-// Dark mode effect
-        transition: 'filter 0.3s ease',
-      }}
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-      className="rounded-sm"
-    ></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4910072795075!2d82.078532!3d26.281176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a7d5221b22235%3A0xfb8518a1075fbd95!2sNew%20Rangoli%20Builders!5e0!3m2!1sen!2sin!4v1698485425104!5m2!1sen!2sin"
+              width="80%"
+              height="130"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-sm"
+            ></iframe>
     {/* Link to Google Maps */}
     <Link
       href="https://www.google.com/maps/place/New+Rangoli+Builders/@26.281176,82.078532,17z/data=!4m12!1m5!3m4!2zMjbCsDE2JzUyLjIiTiA8MsKwMDQnNDIuNyJF!8m2!3d26.281176!4d82.078532!3m5!1s0x399a7d5221b22235:0xfb8518a1075fbd95!8m2!3d26.2810797!4d82.0780065!16s%2Fg%2F11hzwf7p5b?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
