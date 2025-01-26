@@ -13,10 +13,16 @@ const page = () => {
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery2.jpg"/>
         </div>
         <div>
-          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery.jpg"/>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/kitchen5.jpg"/>
         </div>
         <div>
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/rroom.jpg"/>
+        </div>
+        <div>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery.jpg"/>
+        </div>
+        <div>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/w1.png"/>
         </div>
       </div>
       
@@ -28,10 +34,16 @@ const page = () => {
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery11.jpg"/>
         </div>
         <div>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/temple1.jpg"/>
+        </div>
+        <div>
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/living.jpg"/>
         </div>
         <div>
-          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/temple4.jpg"/>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/8.png"/>
+        </div>
+        <div>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/temple7.png"/>
         </div>
       </div>
 
@@ -40,14 +52,21 @@ const page = () => {
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery14.jpg"/>
         </div>
         <div>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/kitchen6.jpg"/>
+        </div>
+        <div>
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery15.jpg"/>
         </div>
         <div>
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery12.jpg"/>
         </div>
         <div>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/kitchen20.jpg"/>
+        </div>
+        <div>
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/kitchen11.jpg"/>
         </div>
+
       </div>
 
       <div className="flex flex-col gap-4 ">
@@ -55,10 +74,16 @@ const page = () => {
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery7.jpg"/>
         </div>
         <div>
-          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery11.jpg"/>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/kitchen9.jpg"/>
+        </div>
+        <div>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/temple16.jpg"/>
         </div>
         <div>
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/gallery3.jpg"/>
+        </div>
+        <div>
+          <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/work/kitchen15.jpg"/>
         </div>
         <div>
           <img className="h-auto max-w-full rounded-lg hover:scale-90 transition-all" src="/image/project.jpg"/>
