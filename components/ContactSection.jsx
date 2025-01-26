@@ -19,7 +19,7 @@ const posts = [
       name: "Natasha Iliana",
       role: "Marketing Specialist",
       href: "#",
-      imageUrl: "/image/profile1.jpg",
+      imageUrl: "",
     },
   },
   {
@@ -35,7 +35,7 @@ const posts = [
       name: "Aviraj Singh",
       role: "Business Owner",
       href: "#",
-      imageUrl: "/image/profile2.jpg",
+      imageUrl: "",
     },
   },
   {
@@ -51,7 +51,7 @@ const posts = [
       name: "Sahil Salim",
       role: "Customer Support Manager",
       href: "#",
-      imageUrl: "/image/profile3.jpg",
+      imageUrl: "",
     },
   },
 ];
