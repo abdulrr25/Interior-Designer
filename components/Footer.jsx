@@ -8,7 +8,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="bg-[#FBEFF2] dark:bg-[#292C3D]">
-      <div className="container lg:grid lg:grid-cols-3 py-10 px-4 gap-8">
+      <div className="container lg:grid lg:grid-cols-3 py-8 px-4 gap-8">
         {/* Company Section */}
         <motion.div
           initial="offscreen"
@@ -47,7 +47,7 @@ export default function Footer() {
               Instagram
             </Link>
             <Link
-              href="https://www.facebook.com/javedmirza07"
+              href="https://www.facebook.com/rangolibuilders"
               className="py-1.5 hover:underline"
             >
               Facebook

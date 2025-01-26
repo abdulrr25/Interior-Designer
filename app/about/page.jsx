@@ -1,10 +1,9 @@
 "use client";
 import React, { useRef } from "react";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { TbArrowUpRight } from "react-icons/tb";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { desVariants, tagVariants, titleVariants } from "@/utils/animation";
+
 
 const About = () => {
   const ref = useRef(null);
@@ -45,7 +44,7 @@ const About = () => {
           </motion.p>
         </div>
 
-        <div className="items-center lg:flex gap-x-8">
+        <div className="items-center lg:flex gap-x-8 lg:px-10">
           {/* Left Image Section */}
           <motion.div style={{ scale }} ref={ref} className="w-full">
             <Image src="/image/gallery1123.jpg" width={700} height={700} alt="Gallery Image" />
@@ -57,7 +56,7 @@ const About = () => {
             whileInView={"onscreen"}
             variants={tagVariants}
           >
-            <p className="pb-8 tracking-wide mt-6 text-center">
+            <p className="pb-8 tracking-wide mt-6 text-justify">
               We are a team of internationally acclaimed architects committed 
               to redefining architectural education and innovation. At the heart 
               of our work is a dedication to integrating new societal visions and 
@@ -73,14 +72,68 @@ const About = () => {
                 trust in our services.
               </span>
             </p>
-            <Button className="inline-flex items-center px-8 py-3 shadow-lg hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2">
-              Read More
-              <TbArrowUpRight className="w-5 h-5 ml-2" />
-            </Button>
+            
           </motion.div>
         </div>
-        <br />
-        <br />
+        <div className="lg:py-20 lg:px-20">
+          <div pt-8 pb-4>
+            <motion.h1 
+                        initial="offscreen"
+            whileInView={"onscreen"}
+            variants={titleVariants}
+            className="text-4xl font-bold tracking-wider text-center uppercase ">Team</motion.h1>
+          </div>
+
+          <div className="grid py-8 gap-20 lg:grid-cols-3 ">
+          <motion.div
+  initial="offscreen"
+  whileInView={"onscreen"}
+  variants={titleVariants}
+  className="border-2 border-primary"
+>
+  <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#292C3D] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3">
+    <Image src="/image/profile2.jpg" width={200} height={200} alt="Javed Ahmad - Director" className="mx-auto rounded-full"/>
+    <h2 className="py-2 text-2xl font-semibold uppercase">Javed Ahmad</h2>
+    <h3 className="font-semibold">Director</h3>
+    <p className="text-sm">
+    leading the team with 4+ years of experience, ensuring innovative and high-quality designs for every project.
+    </p>
+  </div>
+</motion.div>
+
+<motion.div
+  initial="offscreen"
+  whileInView={"onscreen"}
+  variants={desVariants}
+  className="border-2 border-primary"
+>
+  <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#292C3D] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3">
+    <Image src="/image/profile1.jpg" width={200} height={200} alt="Tashreeq Ahmad - Marketing Manager" className="mx-auto rounded-full"/>
+    <h2 className="py-2 text-2xl font-semibold uppercase">Tashreeq Ahmad</h2>
+    <h3 className="font-semibold">Marketing Manager</h3>
+    <p className="text-sm">
+    Tashreeq manages our marketing efforts, driving brand growth and ensuring our services reach the right audience.
+    </p>
+  </div>
+</motion.div>
+
+<motion.div
+  initial="offscreen"
+  whileInView={"onscreen"}
+  variants={tagVariants}
+  className="border-2 border-primary"
+>
+  <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#292C3D] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3">
+    <Image src="/image/profile3.jpg" width={200} height={200} alt="Saleem Khan - Sales Head" className="mx-auto rounded-full"/>
+    <h2 className="py-2 text-2xl font-semibold uppercase">Saleem Khan</h2>
+    <h3 className="font-semibold">Sales Head</h3>
+    <p className="text-sm">
+    Saleem oversees sales strategy, building client relationships, and driving business growth.
+    </p>
+  </div>
+</motion.div>
+          </div>
+        </div>
       </div>
     </div>
   );
