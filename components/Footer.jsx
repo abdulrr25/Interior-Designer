@@ -106,12 +106,12 @@ export default function Footer() {
             <p>&copy; 2025 Interior. All Rights Reserved</p>
           </div>
           <div>
-            Designed & Developed By{" "}
+            
             <Link
               href="https://www.linkedin.com/in/abdulrr25/"
               className="hover:cursor-pointer hover:underline"
             >
-              Abdul Rahman
+              Designed & Developed By Abdul Rahman
             </Link>
           </div>
           <div>

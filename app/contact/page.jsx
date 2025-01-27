@@ -15,8 +15,8 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
-    company: "",
     email: "",
+    subject: "",
     message: "",
   });
 
@@ -44,8 +44,8 @@ export default function Contact() {
         setFormData({
           firstName: "",
           lastName: "",
-          company: "",
           email: "",
+          subject: "",
           message: "",
         });
       } else {
@@ -90,21 +90,21 @@ export default function Contact() {
           </div>
           <div className="sm:col-span-2 mt-2.5">
             <Input
-              type="text"
-              id="company"
-              placeholder="Company"
-              value={formData.company}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="sm:col-span-2 mt-2.5">
-            <Input
               type="email"
               id="email"
               placeholder="Email Address"
               value={formData.email}
               onChange={handleChange}
               required
+            />
+          </div>
+          <div className="sm:col-span-2 mt-2.5">
+            <Input
+              type="text"
+              id="subject"
+              placeholder="Subject"
+              value={formData.subject}
+              onChange={handleChange}
             />
           </div>
           <div className="sm:col-span-2 mt-2.5">
@@ -139,7 +139,7 @@ export default function Contact() {
           </div>
           <Switch.Label className="text-sm leading-6 text-gray-600">
             By selecting this, you agree to our{" "}
-            <a href="#">privacy policy</a>.
+            <a href="https://www.mospi.gov.in/privacy-policy">privacy policy</a>.
           </Switch.Label>
         </Switch.Group>
         <div className="mt-10">

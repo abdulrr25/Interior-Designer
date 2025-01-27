@@ -92,7 +92,7 @@ const About = () => {
   className="border-2 border-primary"
 >
   <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#292C3D] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3">
-    <Image src="/image/profile2.jpg" width={200} height={200} alt="Javed Ahmad - Director" className="mx-auto rounded-full"/>
+    <Image src="/image/profile2.jpg" width={200} height={200} alt="Javed Ahmad - Director" className="mx-auto rounded-full w-52 h-52"/>
     <h2 className="py-2 text-2xl font-semibold uppercase">Javed Ahmad</h2>
     <h3 className="font-semibold">Director</h3>
     <p className="text-sm">
@@ -108,7 +108,7 @@ const About = () => {
   className="border-2 border-primary"
 >
   <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#292C3D] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3">
-    <Image src="/image/profile1.jpg" width={200} height={200} alt="Tashreeq Ahmad - Marketing Manager" className="mx-auto rounded-full"/>
+    <Image src="/image/profile1.jpg" width={200} height={200} alt="Tashreeq Ahmad - Marketing Manager" className="mx-auto rounded-full w-52 h-52"/>
     <h2 className="py-2 text-2xl font-semibold uppercase">Tashreeq Ahmad</h2>
     <h3 className="font-semibold">Marketing Manager</h3>
     <p className="text-sm">
@@ -124,7 +124,7 @@ const About = () => {
   className="border-2 border-primary"
 >
   <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#292C3D] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3">
-    <Image src="/image/profile3.jpg" width={200} height={200} alt="Saleem Khan - Sales Head" className="mx-auto rounded-full"/>
+    <Image src="/image/profile3.jpg" width={200} height={200} alt="Saleem Khan - Sales Head" className="mx-auto rounded-full w-52 h-52"/>
     <h2 className="py-2 text-2xl font-semibold uppercase">Saleem Khan</h2>
     <h3 className="font-semibold">Sales Head</h3>
     <p className="text-sm">
