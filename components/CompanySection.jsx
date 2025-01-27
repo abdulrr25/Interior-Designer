@@ -21,8 +21,8 @@ const CompanySection = () => {
                     </dt>
                     <dd className='order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl'>
                         <Badge
-                        endCountNum={20}
-                        endCountText=' Thousand'
+                        endCountNum={50}
+                        endCountText=' +'
                         />
                     </dd>
                 </motion.div>
@@ -38,8 +38,8 @@ const CompanySection = () => {
                     </dt>
                     <dd className='order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl'>
                         <Badge
-                        endCountNum={90}
-                        endCountText=' Thousand'
+                        endCountNum={100}
+                        endCountText=' +'
                         />
                     </dd>
                 </motion.div>
@@ -56,7 +56,7 @@ const CompanySection = () => {
                     </dt>
                     <dd className='order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl'>
                         <Badge
-                        endCountNum={450}
+                        endCountNum={200}
                         endCountText=' +'
                         />
                     </dd>
