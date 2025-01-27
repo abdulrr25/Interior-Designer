@@ -4,8 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const API_KEY = "AIzaSyA0z5zlp2e3P0AAnoDZpGBzNU6NVRhfJQI"; // Your API Key
-const PLACE_ID = "ChIJNSKyIVJ9mjkRlb1fB6EYhfs"; // Your Place ID
+
 
 export default function GoogleReviewsSection() {
   const [reviews, setReviews] = useState([]);
