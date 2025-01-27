@@ -6,99 +6,98 @@ const projects = [
   {
     id: 1,
     name: "Modern and Clean Kitchen",
-    description: "A sleek, modern kitchen with a clean and elegant design.",
+    description: "A sleek, modern kitchen with clean lines and minimalist design.",
     image: "/image/work/kitchen15.jpg",
     link: "",
   },
   {
     id: 2,
     name: "Family Living Room",
-    description: "A cozy living room, perfect for creating family memories.",
+    description: "A cozy living room designed for comfort and family gatherings.",
     image: "/image/tv4.jpg",
     link: "",
   },
   {
     id: 3,
     name: "Serene Temple Room",
-    description: "A peaceful temple room designed for spiritual moments.",
+    description: "A peaceful temple room with calming colors and spiritual accents.",
     image: "/image/work/temple1.jpg",
     link: "",
   },
   {
     id: 4,
     name: "Designer Washroom Cabinet",
-    description: "A functional and stylish washroom cabinet design.",
+    description: "A functional washroom cabinet design combining elegance and practicality perfectly.",
     image: "/image/work/w1.jpg",
     link: "",
   },
   {
     id: 5,
     name: "White Kitchen Design",
-    description: "A bright and minimal white-themed kitchen design.",
+    description: "A bright, white-themed kitchen with modern features and minimalist design.",
     image: "/image/work/kitchen12.jpg",
     link: "",
   },
   {
     id: 6,
     name: "Modular Kitchen Design",
-    description: "A practical and modern modular kitchen setup.",
+    description: "A modular kitchen design offering efficiency, style, and optimal functionality.",
     image: "/image/work/kitchen5.jpg",
     link: "",
   },
   {
     id: 7,
     name: "Blue Base Kitchen",
-    description: "A modular kitchen with a stylish blue base theme.",
+    description: "A modern modular kitchen featuring a stylish blue base color theme.",
     image: "/image/work/kitchen6.jpg",
     link: "",
   },
   {
     id: 8,
     name: "Metallic Brown Kitchen",
-    description: "A luxurious kitchen with a metallic brown finish.",
+    description: "A luxurious metallic brown kitchen design with elegant modern features.",
     image: "/image/work/kitchen9.jpg",
     link: "",
   },
   {
     id: 9,
-    name: "Flower-Decorated Temple Structure",
-    description: "A serene and beautiful temple structure adorned with flowers.",
+    name: "Temple Structure",
+    description: "A beautifully detailed temple structure adorned with intricate floral and spiritual elements.",
     image: "/image/work/temple7.png",
     link: "",
   },
   {
     id: 10,
     name: "Ongoing TV Cabinet Work",
-    description: "A stylish and modern TV cabinet under construction.",
+    description: "A stylish, modern TV cabinet under construction for contemporary living spaces.",
     image: "/image/work/19.png",
     link: "",
   },
   {
     id: 11,
-    name: "Ongoing Blue Theme Modular Kitchen",
-    description: "A chic blue-themed modular kitchen currently in progress.",
+    name: "Ongoing Modular Kitchen",
+    description: "A modular kitchen design in progress with a blue color theme.",
     image: "/image/work/kitchen14.jpg",
     link: "",
   },
 ];
 
-
 const Page = () => {
   return (
     <div>
       {/* Background Section */}
-      <div className='bg-[url("/image/bgproject.jpg")] bg-cover bg-center'>
-        <h1 className="container py-64 text-6xl font-semibold tracking-widest text-white text-center">
+      <div className="bg-[url('/image/bgproject.jpg')] bg-cover bg-center bg-fixed">
+        <h1 className="container py-32 text-5xl font-semibold tracking-widest text-white text-center">
           Our Projects
         </h1>
       </div>
 
       {/* Projects Grid */}
-      <div className="container grid lg:grid-cols-3 gap-8 py-8 px-4 ">
+      <div className="container grid lg:grid-cols-3 sm:grid-cols-2 gap-8 py-8 px-8">
         {projects.map((project) => (
           <div
             key={project.id}
-            className="relative overflow-hidden rounded-xl group"
+            className="relative overflow-hidden rounded-xl group shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
           >
             {/* Project Image */}
             <Image
@@ -110,9 +109,9 @@ const Page = () => {
             />
 
             {/* Project Details */}
-            <div className="absolute bottom-0 right-0 bg-white/90 dark:bg-black/40 flex-col items-center justify-end w-96 gap-32 p-12 text-xl transition duration-300 ease-in-out translate-y-full from-transparent to-black group-hover:translate-y-0">
-              <h1 className="text-2xl font-semibold">{project.name}</h1>
-              <p className="py-4">{project.description}</p>
+            <div className="absolute bottom-0 left-0 bg-white/90 dark:bg-black/50 flex flex-col items-center justify-end w-full h-48 p-6 text-xl transition duration-300 ease-in-out translate-y-full group-hover:translate-y-0">
+              <h1 className="text-xl font-semibold text-center">{project.name}</h1>
+              <p className="py-2 text-center">{project.description}</p>
             </div>
           </div>
         ))}
