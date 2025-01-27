@@ -1,39 +1,50 @@
+"use client";
+
 import { Sen } from "next/font/google";
+import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import "./globals.css";
 
-
-//Components
+// Components
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-//ThemeProvider
+// ThemeProvider
 import { ThemeProvider } from "@/components/ThemeProvider";
+
 const Josef = Sen({
   subsets: ["latin"],
-  weight:["400","500",'600',"700"],
-  display:"swap"
-
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
-export const metadata = {
-  title: "New Rangoli Builders",
-  description: "A perfect Blend of Tradition and Modernity",
+// Dynamic page titles based on route
+const pageTitles = {
+  "/": "Home - New Rangoli Builders",
+  "/about": "About - New Rangoli Builders",
+  "/gallery": "Gallery - New Rangoli Builders",
+  "/projects": "Projects - New Rangoli Builders",
+  "/contact": "Contact - New Rangoli Builders",
 };
 
 export default function RootLayout({ children }) {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // Dynamically set the document title based on the current path
+    const title = pageTitles[pathname] || "New Rangoli Builders";
+    document.title = title;
+  }, [pathname]);
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={Josef.className}>
-        <ThemeProvider attribute ="class" defaultTheme="light">
-
-        <Header/>
-        {children}
-        <Footer/>
-
+        <ThemeProvider attribute="class" defaultTheme="light">
+          <Header />
+          {children}
+          <Footer />
         </ThemeProvider>
-
-        
-        </body>
+      </body>
     </html>
   );
 }
