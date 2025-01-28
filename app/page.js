@@ -14,7 +14,7 @@ export default function Home() {
       <AboutComponent/>
       <CatalogueSection/>
       <CatalogSwiperSection/>
-      <ContactSection/>
+      {/* <ContactSection/> */}
     </>
 
   );

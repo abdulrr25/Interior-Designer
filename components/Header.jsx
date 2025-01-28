@@ -34,7 +34,7 @@ const Header = () => {
       } sticky top-0 z-30 transition-all ${pathname ==='/' && 'bg-[#fff]'}`}
     >
       <div className="container mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between px-2">
           {/* Logo Section */}
           <Logo />
 
@@ -50,7 +50,7 @@ const Header = () => {
             <ThemeToggler />
 
             {/* Mobile Navigation */}
-            <div className="xl:hidden">
+            <div className="xl:hidden px-4">
               <Mobilenavigation />
             </div>
           </div>
