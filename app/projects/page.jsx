@@ -27,7 +27,7 @@ const projects = [
   {
     id: 4,
     name: "Designer Washroom Cabinet",
-    description: "A functional washroom cabinet design combining elegance and practicality perfectly.",
+    description: "Elegant and practical washroom cabinet design.",
     image: "/image/work/w1.jpg",
     link: "",
   },
@@ -48,14 +48,14 @@ const projects = [
   {
     id: 7,
     name: "Blue Base Kitchen",
-    description: "A modern modular kitchen featuring a stylish blue base color theme.",
+    description: "A modern modular kitchen featuring a stylish blue color theme.",
     image: "/image/work/kitchen6.jpg",
     link: "",
   },
   {
     id: 8,
     name: "Metallic Brown Kitchen",
-    description: "A luxurious metallic brown kitchen design with elegant modern features.",
+    description: "A luxurious metallic brown kitchen design with elegant features.",
     image: "/image/work/kitchen9.jpg",
     link: "",
   },
