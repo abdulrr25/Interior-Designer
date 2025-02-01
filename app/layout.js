@@ -11,6 +11,7 @@ import Header from "@/components/Header";
 
 // ThemeProvider
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { Toaster } from "react-hot-toast";
 
 const Josef = Sen({
   subsets: ["latin"],
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
       <body className={Josef.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
+          <Toaster position="top-right" reverseOrder={false}/>
           {children}
           <Footer />
         </ThemeProvider>
