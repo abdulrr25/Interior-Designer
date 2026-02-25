@@ -1,38 +1,197 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏠 New Rangoli Builders  
+### Interior Design & Modular Solutions Website  
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer--Motion-Animation-pink)](https://www.framer.com/motion/)
+[![Status](https://img.shields.io/badge/Status-Live-success)](https://www.newrangolibuilders.in)
+[![Project Type](https://img.shields.io/badge/Type-Freelance%20Client%20Project-purple)]()
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌐 Live Website
+
+👉 **https://www.newrangolibuilders.in**
+
+---
+
+## 📌 Project Overview
+
+This is a fully responsive and professionally designed business website developed as a **freelance project** for **New Rangoli Builders**, a well-known interior design showroom based in Sultanpur.
+
+The website was built to:
+
+- Establish a strong online presence  
+- Showcase interior design services & completed projects  
+- Improve customer engagement  
+- Present a premium and modern brand identity  
+- Provide seamless multi-device experience  
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js (App Router)**
+- **React.js**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide Icons / React Icons**
+- **Next.js Image Optimization**
+
+---
+
+## ✨ Complete Feature Highlights
+
+### 🏡 Hero Section
+- Premium landing banner
+- Animated headings and descriptions
+- Call-to-action button (Book Now)
+- Clean two-column layout
+- Scroll-triggered motion effects
+
+---
+
+### 🧱 About Section
+- Company introduction
+- 35+ years of experience highlight
+- Clean typography structure
+- Grid-based responsive layout
+- Animated reveal transitions
+
+---
+
+### 🛋 Catalogue / Services Section
+- Bedroom Setup
+- Kitchen Setup
+- Drawing Room Setup
+- Living Room Setup
+- Card-based design structure
+- Responsive grid system
+- Image-focused presentation
+
+---
+
+### 🖼 Projects Section
+- Dedicated projects page
+- Showcases completed interior works
+- Includes:
+  - Modular Kitchen Designs
+  - Living Room Designs
+  - Temple Room Setup
+  - Washroom Cabinets
+  - Ongoing Projects
+- Professional visual gallery layout
+
+---
+
+### 🖼 Gallery Section
+- Image-based portfolio showcase
+- Clean structured layout
+- Highlights craftsmanship and completed work
+
+---
+
+### 📞 Contact Page
+- Dedicated contact section
+- Professional inquiry form
+- Customer engagement focused layout
+- Easy-to-access communication channel
+
+---
+
+### 📍 Footer Section
+- Google Map location integration
+- Contact information
+- Social media links
+- Professional footer layout
+- Copyright information
+
+---
+
+### 📱 Fully Responsive Design
+- Mobile-first approach
+- Optimized for tablets and desktops
+- Consistent spacing and layout alignment
+- Smooth UI experience across all screen sizes
+
+
+---
+
+## 🚀 Installation & Local Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone <repository-url>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 3️⃣ Run development server
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Open in browser:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+http://localhost:3000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 4️⃣ Build for production
 
-## Deploy on Vercel
+```
+npm run build
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# Interior-Designer" 
-"# Interior" 
+## 🎨 UI / UX Philosophy
+
+- Minimal & premium visual style
+- Strong typography hierarchy
+- Balanced white spacing
+- Clean grid architecture
+- Subtle and smooth animations
+- Performance-first implementation
+
+---
+
+## 👨‍💻 Freelance Contribution
+
+As the freelance frontend developer, I was responsible for:
+
+- Requirement analysis
+- UI planning and layout structuring
+- Responsive implementation
+- Animation integration
+- Component-based architecture
+- Performance optimization
+- Deployment-ready setup
+
+---
+
+## 📈 Business Impact
+
+This website helps the client to:
+
+- Strengthen digital brand identity
+- Build customer trust
+- Showcase completed work professionally
+- Increase potential inquiries
+- Improve local visibility
+
+---
+
+
+## 📄 License
+
+This project was developed as a freelance client project.  
+Usage and modification rights are subject to client agreement.
